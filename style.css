@@ -1,15 +1,50 @@
 body{
     font-family: sans-serif;
 }
+.sentence-container{
+    width: 100%;
+    background-color: red;
+    clear: both;
+}
 .letter{
     float: left;
+    min-height: 40px;
+    min-width: 50px;
+    margin-right: 5px;
     padding: 10px 30px;
     font-size: 60px;
-    color: white;
+    color: rgba(255, 255, 255, 0);
     background-color: black; 
-    opacity: 0;   
+    /* opacity: 0; */
+    text-decoration: underline red;
+}
+.live-container{
+    clear: both;
+    float: right;
+    margin-top: 100px;
+    font-size: 40px;
+    color: red;
+    letter-spacing: 10px;
 }
 .correct{
     color: orangered;
     opacity: 1;
+}
+.rule-container{
+    padding-bottom: 60px;
+}
+
+.rule-one,
+.rule-two{
+    font-size: 30px;
+    font-family: sans-serif;
+    text-align: center;
+    width: 50%;
+    float: left;
+}
+.rule-one-color{
+    background-color: rgb(41, 150, 240);
+}
+.rule-two-color{
+    background-color: yellow;
 }
