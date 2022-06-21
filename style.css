@@ -1,0 +1,15 @@
+body{
+    font-family: sans-serif;
+}
+.letter{
+    float: left;
+    padding: 10px 30px;
+    font-size: 60px;
+    color: white;
+    background-color: black; 
+    opacity: 0;   
+}
+.correct{
+    color: orangered;
+    opacity: 1;
+}
